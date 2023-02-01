@@ -1,12 +1,12 @@
 {
-    "add_hover_pressed": false,
+    "add_hover_pressed": true,
     "add_is_visible": true,
     "can_fit_height": false,
     "can_fit_width": false,
     "category": "input forms",
     "default_dim": {
-        "height": 150,
-        "width": 150
+        "height": 170,
+        "width": 300
     },
     "display": "Resize and crop uploader",
     "events": {
@@ -16,10 +16,32 @@
             "name": "cropping_finishes"
         }
     },
-    "icon": "ion-android-checkbox-blank",
+    "fields": {
+        "AAJ": {
+            "caption": "Aspect Ratio Width",
+            "default_val": 16,
+            "doc": "The aspect ratio you want for the image",
+            "editor": "StaticNumber",
+            "name": "aspect_ratio_width",
+            "rank": 0
+        },
+        "AAL": {
+            "caption": "Aspect Ratio Height",
+            "default_val": 9,
+            "doc": "The aspect ratio you want for the image",
+            "editor": "StaticNumber",
+            "name": "aspect_ratio_height",
+            "rank": 1
+        }
+    },
+    "icon": "ion-images",
     "property_applications": {
         "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
         "MinWidth": false,
+        "Padding": true,
         "resizable": true
     },
     "states": {
