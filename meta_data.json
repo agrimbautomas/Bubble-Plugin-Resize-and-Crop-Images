@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "containers",
+        "1": "media",
+        "2": "blog",
+        "3": "small business",
+        "4": "productivity"
+    },
+    "description": "The plugin creates a resizable, movable, rectangular/circular crop area to select and crop an area of an image you specify.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1675114783488x689691302961723500/Screen%20Shot%202023-01-30%20at%2018.39.23.png",
+    "license": "commercial",
+    "name": "Resize and crop uploader"
+}
