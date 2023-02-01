@@ -6,8 +6,11 @@
         "3": "small business",
         "4": "productivity"
     },
-    "description": "The plugin creates a resizable, movable, rectangular/circular crop area to select and crop an area of an image you specify.",
+    "demo_page": "https://bubble.io/page?type=page&name=resize-and-crop-images&id=bleap-demo-plugins",
+    "description": "The plugin creates a resizable, movable, rectangular crop area to select and crop an area of an image you specify.\nYou can set the desired aspect radio in order to get the images that will suit perfectly in your layouts.\n",
     "image": "//s3.amazonaws.com/appforest_uf/f1675114783488x689691302961723500/Screen%20Shot%202023-01-30%20at%2018.39.23.png",
     "license": "commercial",
-    "name": "Resize and crop uploader"
+    "link": "https://bubble.io/page?type=page&name=resize-and-crop-images&id=bleap-demo-plugins",
+    "name": "Resize and crop uploader",
+    "plugin_instructions": "1. Add the Resize and crop uploader element to the page.\n2. Set the aspect ratio you need from the element properties.\n3. Handle in the workflow the cropped image.\nYou can use the Action \"Resize And Crop Cropping finishes\".\nOr you can get the attribute \"uploaded image\" from the element to save the cropped image."
 }
